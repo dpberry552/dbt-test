@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: person
+    description: 'person staging table'
+    database: dbt  
+    schema: staging
+    tables:
+      - name: Person
+        description: 'person details from the source'
